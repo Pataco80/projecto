@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-ricardo",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "npm",
+    "gulp"
+  ],
+  "author": "Ricardo Do Vale",
+  "license": "ISC"
+}
