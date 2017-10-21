@@ -13,8 +13,7 @@
       "start": "echo Start",
       "prestart": "echo PreStart",
       "poststart": "echo PostStart",
-      "postinstall": "cp -r node_modules/bootstrap/dist/ src/components/bootstrap/",
-      "tutu": "echo tutu"
+      "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/"
   },
   "author": "Ricardo Do Vale",
   "license": "ISC"
