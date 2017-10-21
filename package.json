@@ -9,13 +9,13 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "echo Start",
+      "prestart": "echo PreStart",
+      "poststart": "echo PostStart",
+      "postinstall": "cp -r node_modules/bootstrap/dist/ src/components/bootstrap/",
+      "tutu": "echo tutu"
   },
-  "keywords": [
-    "bootstrap",
-    "npm",
-    "gulp"
-  ],
   "author": "Ricardo Do Vale",
   "license": "ISC"
 }
