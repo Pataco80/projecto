@@ -16,7 +16,12 @@
       "prestart": "echo PreStart",
       "poststart": "echo PostStart",
       "preinstall": "mkdir -p src/components/bootstrap/ src/components/font-awesome/",
-      "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/"  },
+      "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/"  
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pataco80/frontend-moderno-projeto-1.git"
+  },
   "author": "Ricardo Do Vale",
   "license": "ISC"
 }
