@@ -7,14 +7,16 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mkdirp": "^0.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
       "start": "echo Start",
       "prestart": "echo PreStart",
       "poststart": "echo PostStart",
-      "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/"
-  },
+      "preinstall": "mkdir -p src/components/bootstrap/ src/components/font-awesome/",
+      "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/"  },
   "author": "Ricardo Do Vale",
   "license": "ISC"
 }
